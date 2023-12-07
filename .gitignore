@@ -1,9 +1,9 @@
 .DS_Store
 .env
 node_modules/
-data/
+data/*
 !data/.gitkeep
-translations/
+translations/*
 !translations/.gitkeep
-output/
+output/*
 !output/.gitkeep
