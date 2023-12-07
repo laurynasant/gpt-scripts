@@ -1,0 +1,16 @@
+{
+  "name": "gtp-whisper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.12.1",
+    "pdf-extract": "^1.0.11"
+  },
+  "scripts": {
+    "transcribe": "node src/transcribe.js",
+    "translate": "node src/translate.js"
+  }
+}
